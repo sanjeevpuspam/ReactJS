@@ -1,3 +1,16 @@
+
+##Steps of running this project
+
+from the command prompt clone the project
+
+$git clone [https://github.com/sanjeevpuspam/ReactJS/lazy_loading.git]
+$cd lazy_loading
+$npm install
+$npm start
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

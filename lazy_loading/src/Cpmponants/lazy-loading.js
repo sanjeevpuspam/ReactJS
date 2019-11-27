@@ -1,10 +1,12 @@
-import React  from 'react';
+import React, { Suspense, lazy }  from 'react';
+
+const PhotoList = lazy(()=> import('./PhotoList'));
 
 const LazyLoading = (props) => {
     return (
-        <div>
-            Welcome to Lezzy loding
-        </div>
+        <Suspense fallback={<div>Loading.......</div>}>
+            <PhotoList />
+        </Suspense>
     );
   }
 
